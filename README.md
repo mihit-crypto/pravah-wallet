@@ -35,7 +35,7 @@ This repository is a **testnet prototype** that shows the core technology workin
 | **Roles** | Separate keys for admin, minting, upgrading and emergency pause (least privilege) |
 | **Emergency pause** | One security officer can stop all transfers instantly during an attack |
 | **Multi-sig treasury** | Minting, unpausing and upgrades need **2 of 3** signatures (Safe) |
-| **Pravah Wallet app** | Connect MetaMask, see balance and status, send coins, live transaction history |
+| **Pravah Wallet app** | Connect MetaMask, see balance and status, send coins, live transaction history, English / Hindi |
 
 ## Architecture
 
@@ -83,7 +83,7 @@ MetaMask does not connect to pages opened directly from disk (`file://`), so ser
 1. Install [MetaMask](https://metamask.io) and switch to the **Sepolia** test network. Get free test ETH from a Sepolia faucet.
 2. Download `index.html` from this repository.
 3. Serve it locally, for example with the VS Code **Live Server** extension (right-click → *Open with Live Server*).
-4. Open `http://127.0.0.1:5500/index.html` in the same browser as MetaMask and click **MetaMask se jodiye** (connect).
+4. Open `http://127.0.0.1:5500/index.html` in the same browser as MetaMask and click **Connect MetaMask**. Use the **हिंदी / English** button at the top to switch the app language.
 
 > **About the GitHub Pages link:** MetaMask may show a phishing warning for this brand-new `github.io` site. That is MetaMask doing its job with new, unknown sites. **Never click "Connect anyway" on a site whose code you have not read yourself.** Running locally avoids this.
 
